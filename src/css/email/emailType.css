@@ -1,0 +1,34 @@
+.emailType {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border-bottom: 2px solid whitesmoke; */
+  height: 50px;
+}
+
+.emailType__options {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  padding: 0 40px 0 10px;
+}
+
+.emailType__options:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.emailType__options svg,
+.emailType__options p {
+  font-size: 14px;
+}
+
+.emailType__options--active {
+  border-bottom: 3px solid #1976d2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: bold;
+  color: #1976d2;
+}

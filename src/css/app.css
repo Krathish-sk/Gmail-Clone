@@ -1,0 +1,11 @@
+.app__body {
+  display: grid;
+  grid-template-columns: 250px 1110px 70px;
+  gap: 8px;
+}
+
+.emailList {
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 15px;
+}

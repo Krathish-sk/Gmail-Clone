@@ -1,0 +1,32 @@
+.emailList__settings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.emailList__settings svg{
+    font-size: 18px;
+}
+
+.emailList__settingsLeft{
+    display: flex;
+    align-items: center;
+}
+
+.emailList__settingsCheckbox{
+    display: flex;
+    align-items: center;
+}
+
+.emailList__settingsRight{
+    display: flex;
+    align-items: center;
+}
+
+.emailList__settingsRight p{
+    color:gray;
+    font-size: small;
+}
